@@ -8,3 +8,5 @@
 - 对关键操作引入\textbf{用户确认环节}，结合\textbf{错误处理机制}，提升系统可靠性和用户体验
 
 项目截图：
+![graph8](https://github.com/user-attachments/assets/43465bec-b382-4087-94c5-2ecefd3d47b6)
+
