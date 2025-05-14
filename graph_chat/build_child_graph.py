@@ -107,7 +107,7 @@ def build_flight_graph(builder: StateGraph) -> StateGraph:
                 )
             )
         return {
-            # 更新对话状态为弹出 —— 这里的 pop不是具体值，而是表示要弹出（被识别为一个“命令”）
+            # 更新对话状态为弹出 —— 这里的 pop不是具体值，而是表示要弹出（被识别为一个“命令”）,因此不冲突
             # 具体的值在state中定义，只能是那五个
             "dialog_state": "pop",
             "messages": messages,  # 返回消息列表
